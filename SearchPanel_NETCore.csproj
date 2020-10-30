@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>SearchPanel</AssemblyName>
+    <RootNamespace>SearchPanel</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="App.ico" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Reference Include="Syncfusion.Data.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Data.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SampleLayout">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SampleLayout.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGrid.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SfGrid.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Shared.WPF.dll</HintPath>
+    </Reference>
+	<Reference Include="Syncfusion.SfSkinManager.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SfSkinManager.WPF.dll</HintPath>
+    </Reference>
+	<Reference Include="Syncfusion.Themes.MaterialLight.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Themes.MaterialLight.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Linq.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Linq.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Wpf">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Grid.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.Wpf">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.GridCommon.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\..\..\Common\Data\Interactivity_Binaries\WPF\4.0\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
