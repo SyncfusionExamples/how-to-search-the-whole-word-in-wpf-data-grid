@@ -4,9 +4,9 @@
 
 This sample illustrates how to search the whole word in WPF DataGrid.
 
-In SfDataGrid, searching will be performed by contains search condition in the default SearchHelper. So that, all cell values which contains the search text will be highlighted. For example, if the search text is “Alice” and the DataGrid contains the values “Alice” and “Alice Mutton” in two different cells, the search text Alice in both the cells will be highlighted.
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) provides support to search the data by using SearchHelper. Now, the cell values which contains the search text will be highlighted. For example, if the search text is “Alice” and the DataGrid contains the values “Alice” and “Alice Mutton” in two different cells, the search text Alice in both the cells will be highlighted.
 
-We can change this behavior to highlight the cell only if the cell value is completely same as the search text. That is, only the cell with the text “Alice” will be highlighted. This can be achieved by creating a custom SearchHelper and apply Equals search instead of Contains search. 
+You can change this behavior to highlight the cell only if the cell value is completely same as the search text. That is, only the cell with the text “Alice” will be highlighted. This can be achieved by creating a custom SearchHelper and apply Equals search instead of Contains search.
 
 
 
