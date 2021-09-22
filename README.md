@@ -92,5 +92,7 @@ public class CustomSearchHelper : SearchHelper
 
 ![Searching_Image](searchImage.png)
 
+KB article - [How to search the whole word in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12010/how-to-search-the-whole-word-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
